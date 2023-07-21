@@ -1,11 +1,12 @@
 import LandingPage from "./components/LandingPage"
+import DefaultLayout from "./components/layout/DefaultLayout"
 
 function App() {
 
   return (
-    <div>
+    <DefaultLayout>
       <LandingPage />
-    </div>
+    </DefaultLayout>
   )
 }
 
